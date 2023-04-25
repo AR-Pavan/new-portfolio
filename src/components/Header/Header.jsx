@@ -1,4 +1,5 @@
 import React,{useRef,useEffect} from 'react';
+import logo from "../../assets/images/logo-1.png";
 import "./Header.css";
 
 const Header = () => {
@@ -40,10 +41,8 @@ const Header = () => {
             <div className="flex items-center justify-between">
               {/* logo */}
               <div className="flex items-center gap-[10px]">
-              {/* <span className="w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500] rounded-full flex items-center justify-center">
-                    ARP
-                  </span> */}
-                  <img className="w-[40px] h-[40px] flex items-center justify-center" src="src/assets/images/logo-1.png" alt="" />
+              
+                  <img className="w-[40px] h-[40px] flex items-center justify-center" src={logo} alt="logo" />
 
                   <div className="leading-[20px]">
                     <h2 className="text-xl text-smallTextColor font-[700]">Annam Raghu Pavan</h2>
