@@ -42,8 +42,8 @@ const Header = () => {
             <div className="flex items-center justify-between">
               {/* logo */}
               <div className="flex items-center gap-[10px]">
-              
-                  <img className="w-[40px] h-[40px] flex items-center justify-center" src={logo} alt="logo" />
+                  <a className="cursor-pointer"href="#"><img className="w-[40px] h-[40px] flex items-center justify-center" src={logo} alt="logo" /></a>
+                  
 
                   <div className="leading-[20px]">
                     <h2 className="text-xl text-smallTextColor font-[700]">Annam Raghu Pavan</h2>
