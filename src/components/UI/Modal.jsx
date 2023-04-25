@@ -1,5 +1,6 @@
 import React from 'react'
-import portfolios from '../../assets/data/portfolioData'
+import portfolios from '../../assets/data/portfolioData';
+import "./Modal.css";
 
 const Modal = ({activeID,setShowModal}) => {
     const portfolio = portfolios.find(portfolio=>portfolio.id === activeID)
@@ -8,8 +9,8 @@ const Modal = ({activeID,setShowModal}) => {
         window.open(url, "_blank", "noreferrer");
       };
   return (
-    <div className="w-full h-full fixed top-0 left-0 z-10 bg-headingColor bg-opacity-40">
-        <div className="w-11/12 md:max-w-[600px] md:w-full absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform 
+    <div className="w-full h-full fixed top-0 left-0 z-10 overflow-auto bg-headingColor bg-opacity-40">
+        <div className="w-11/12 md:max-w-[600px] md:w-full absolute top-[80%] left-1/2 z-40 bg-white rounded-[8px] transform 
         -translate-x-1/2 -translate-y-1/2 p-5">
             <div>
                 <figure>
@@ -28,7 +29,9 @@ const Modal = ({activeID,setShowModal}) => {
                         ))
                     }
                 </div>
-              
+                <div className='py-3'>
+                    <a><b>Time Period : </b>{portfolio.timePeriod}</a>
+                </div>
                 {portfolio.credentials && <div className='w-100% h-30% border border-gray-950 mt-2'>
                     <h4>Credentials : </h4>
                     <a><b>Username : </b>testuser@gmail.com</a><br />
