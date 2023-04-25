@@ -12,7 +12,7 @@ const portfolios = [
     title: "Social Media App",
     timePeriod:"2-3 Weeks",
     description:
-      "There is a fully responsive application in which users can register, log in, and upload images securely.In addition to following friends in this application, it features a light and dark mode that enhances the user experience",
+      "This is a fully responsive application in which users can register, log in, and upload images securely.In addition to following friends in this application, it features a light and dark mode that enhances the user experience",
     technologies: ["React", "Node.js", "Mongoose","Redux","JsonWebToken"],
     siteUrl: "https://deerdo.netlify.app/",
     frontEndUrl:"https://github.com/AR-Pavan/social-media-frontend",
