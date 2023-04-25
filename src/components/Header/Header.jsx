@@ -55,7 +55,7 @@ const Header = () => {
               <div className="menu" ref={menuRef} onClick={toggleMenu}>
                 <ul className='flex items-center gap-10 '>
                   <li><a onClick={handleClick} className='text-smallTextColor font-[600]' href="#about">About</a></li>
-                  <li><a onClick={handleClick} className='text-smallTextColor font-[600]'href="#services">Services</a></li>
+                  <li><a onClick={handleClick} className='text-smallTextColor font-[600]'href="#skills">Skills</a></li>
                   <li><a onClick={handleClick} className='text-smallTextColor font-[600]'href="#portfolio">Projects</a></li>
                   <li><a onClick={handleClick} className='text-smallTextColor font-[600]'href="#contact">Contact</a></li>
                 </ul>
