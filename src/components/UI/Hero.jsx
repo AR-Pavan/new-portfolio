@@ -39,7 +39,7 @@ const Hero = () => {
                 </button>
               </a>
               <a
-                href="https://drive.google.com/file/d/1BZSLZgdF7GaNMMvnaUVsd5qQqQCmHbD9/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ap_dhlAmpg02V_nIz5dNQ_f5pDgg855A/view?usp=drive_link"
                 target="_blank"
                 className="text-smallTextColor font-[600] text-[16px]
                       border-b border-solid border-smallTextColor"
